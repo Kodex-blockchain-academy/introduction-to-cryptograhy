@@ -1,0 +1,9 @@
+[package]
+name = "wallet-creation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { version="0.8.3", features=["signers", "signer-local"]}
+bitcoin = "0.32.5"
+tiny-bip39 = "2.0.0"
